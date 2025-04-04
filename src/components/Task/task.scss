@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+  }
+  
+  .task-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header */
+  .title {
+    text-align: left;
+    font-size: 24px;
+  }
+  
+  .task-link {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  /* Add Task Button */
+  .add-task {
+    float: right;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .add-task:hover {
+    background: #0056b3;
+  }
+  
+  /* Task Table */
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .task-table th, .task-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .task-table th {
+    background: #f4f4f4;
+  }
+  
+  .task-table td {
+    background: white;
+  }
+  
+  .action {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /* Pagination */
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .pagination .page-btn {
+    margin: 0 5px;
+  }
+  
+  .pagination button:hover {
+    background: #ddd;
+  }
+  
